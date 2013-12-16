@@ -1,0 +1,93 @@
+{
+    "project": {
+        "name": "Qdom",
+        "description": "A quicker and easier way of getting DOM elements",
+        "version": "0.0.1",
+        "theme": "simple"
+    },
+    "files": {
+        "qdom.js": {
+            "name": "qdom.js",
+            "modules": {},
+            "classes": {
+                "Qdom": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {},
+    "classes": {
+        "Qdom": {
+            "name": "Qdom",
+            "shortname": "Qdom",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "qdom.js",
+            "line": 1,
+            "description": "Provides an easier and cleaner way to access DOM elements without jQuery."
+        }
+    },
+    "classitems": [
+        {
+            "file": "qdom.js",
+            "line": 9,
+            "description": "Get elements of class",
+            "itemtype": "method",
+            "name": "class",
+            "params": [
+                {
+                    "name": "className",
+                    "description": "The name of the class",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Returns an array of matching elements",
+                "type": "Array"
+            },
+            "class": "Qdom"
+        },
+        {
+            "file": "qdom.js",
+            "line": 20,
+            "description": "Get an element of ID",
+            "itemtype": "method",
+            "name": "id",
+            "params": [
+                {
+                    "name": "idName",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Returns the matching DOM element",
+                "type": "Object"
+            },
+            "class": "Qdom"
+        },
+        {
+            "file": "qdom.js",
+            "line": 31,
+            "itemtype": "method",
+            "name": "tag",
+            "params": [
+                {
+                    "name": "tagName",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Returns an array of matching tag elements",
+                "type": "Array"
+            },
+            "class": "Qdom"
+        }
+    ],
+    "warnings": []
+}

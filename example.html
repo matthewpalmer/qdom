@@ -1,0 +1,26 @@
+<html>
+  <head></head>
+  <body>
+  
+    <div id='idOne'>An element of id</div>
+    <div class='classOne'>class one 1</div>
+    <div class='classOne'>class one 2</div>
+  
+  <script src='./qdom.js'>
+  </script>
+  <script>
+    var q = new Qdom();
+    var i = q.id('idOne');
+    alert(i);
+
+    var c = q.class('classOne');
+    alert(c);
+
+    var t = q.tag('div');
+    alert(t);
+
+  </script>
+  </body>
+
+
+</html>

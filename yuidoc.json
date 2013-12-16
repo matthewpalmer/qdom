@@ -1,0 +1,9 @@
+{
+  "name": "Qdom",
+  "description": "A quicker and easier way of getting DOM elements",
+  "version": "0.0.1",
+  "theme": "simple",
+  "options": {
+    "outdir": "./docs/"
+  }
+}
