@@ -37,7 +37,7 @@
             "line": 9,
             "description": "Get elements of class",
             "itemtype": "method",
-            "name": "class",
+            "name": "className",
             "params": [
                 {
                     "name": "className",

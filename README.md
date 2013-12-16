@@ -12,7 +12,7 @@ Example
 var q = new Qdom();
 
 // Based on class
-var c = q.class('className'); // Returns an array of objects matching className
+var c = q.className('className'); // Returns an array of objects matching className
 
 // Based on id
 var i = q.id('idName'); // Returns an object matching idName
@@ -25,3 +25,4 @@ var t = q.tag('tagName'); // Returns an array of objects matching tagName
 
 
 **See also: `example.html`**
+

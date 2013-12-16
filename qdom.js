@@ -8,11 +8,11 @@ function Qdom() {
 
 /**
  * Get elements of class
- * @method class
+ * @method className
  * @param {String} className The name of the class
  * @return {Array} Returns an array of matching elements
  */
-Qdom.prototype.class = function(className) {
+Qdom.prototype.className = function(className) {
   var matchingElements = document.getElementsByTagName(className);
   return matchingElements;
 };
