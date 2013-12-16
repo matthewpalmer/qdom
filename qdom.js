@@ -3,7 +3,7 @@
  * @class Qdom
  */
 function Qdom() {
-  console.log('aaadomq');
+
 }
 
 /**
